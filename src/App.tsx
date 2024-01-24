@@ -37,6 +37,7 @@ export default function App() {
     return count;
   }
 
+  // Deleta a tarefa
   function handleDeleteTask(taskToDelete: number) {
 
     const taskWithouDeletedOne = tasks.filter((task) => {
