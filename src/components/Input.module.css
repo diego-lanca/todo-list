@@ -8,3 +8,7 @@
     padding: 1rem;
     border-radius: 8px;
   }
+
+.textArea:valid {
+  color: var(--gray-100);
+}

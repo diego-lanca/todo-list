@@ -73,22 +73,25 @@ export default function App() {
       
       return { ...task}
     })
-
-    console.log(updatedTasks)
     
     setTasks(updatedTasks);
 
   }
 
+
+  function handleInputChanges(e: React.ChangeEvent<HTMLInputElement>) {
+    setInputValue(e.target.value)
+  }
+
   return (
     <>
       <Header />
-
+      <div className={styles.wrapper}>
       <section className={styles.content}>
-        <div className={styles.newTaskContainer}>
+         <div className={styles.newTaskContainer}>
           <form className={styles.formNewTask} onSubmit={handleAddTask}>
             <Input
-              onChange={(e) => setInputValue(e.target.value)}
+              onChange={handleInputChanges}
               value={inputValue}
               type="text"
               placeholder="Adicione uma nova tarefa"
@@ -124,6 +127,7 @@ export default function App() {
           )}
         </div>
       </section>
+      </div>
     </>
   );
 }
