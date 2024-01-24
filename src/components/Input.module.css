@@ -1,0 +1,10 @@
+
+.textArea{
+    flex: 1;
+    border: 0;
+    color: var(--gray-300);
+    border: 1px solid var(--gray-700);
+    background: var(--gray-500);
+    padding: 1rem;
+    border-radius: 8px;
+  }

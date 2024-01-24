@@ -1,0 +1,68 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 46rem;
+  margin: 6.6875rem auto;
+}
+
+.newTaskContainer {
+  width: 46rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2.7rem;
+  
+}
+
+.formNewTask {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  padding: 1rem 0;
+ 
+}
+
+
+.botao {
+  display: flex;
+  border: 0;
+  border-radius: 8px;
+  background: var(--blue-dark);
+  color: var(--gray-100);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  cursor: pointer;
+  transition: background 0.1s ease;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  gap: 0.1rem;
+}
+
+.botao span {
+  align-items: flex-end;
+  padding-top: 0.28rem;
+}
+
+
+.botao:hover {
+  background: var(--blue);
+}
+
+.taskListContainer {
+  width: 46rem;
+  margin-top: 4rem;
+}
+

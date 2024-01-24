@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+.created,
+.finished {
+  display: flex;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.created p {
+  color: var(--blue);
+}
+
+.created span {
+  background: var(--gray-400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-200);
+  height: auto;
+  width: auto;
+  min-height: 19px;
+  min-width: 24px;
+  border-radius: 999px;
+}
+
+.finished p {
+  color: var(--purple);
+}
+
+.finished span {
+  background: var(--gray-400);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-200);
+  height: auto;
+  width: auto;
+  min-height: 19px;
+  min-width: 52px;
+  border-radius: 999px;
+}

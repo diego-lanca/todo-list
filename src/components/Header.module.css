@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    height: 12.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background: var(--gray-700);
+}
+
+.logo {
+    display: flex;
+    gap: 0.875rem;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.logo img {
+    padding-bottom: 0.08rem;
+}
+
+.listName p{
+    display: flex;
+    font-size: 2.5rem;
+    color: var(--blue);
+    font-weight: 900;
+    
+}
+
+.listName strong {
+    color: var(--purple)
+}
